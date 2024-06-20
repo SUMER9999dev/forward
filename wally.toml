@@ -1,0 +1,13 @@
+[package]
+name = "sumer9999dev/forward"
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+license = "MIT"
+authors = ["SUMER <Discord: sumer_real>"]
+description = "https://github.com/SUMER9999dev/forward"
+
+exclude = ["Packages", "tests", "sourcemap.json", "test.project.json"]
+
+[dependencies]
+catrom = "ecurtiss/catrom@=1.0.0-rc1"

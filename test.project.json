@@ -1,0 +1,30 @@
+{
+    "name": "Forward",
+    "tree": {
+      "$className": "DataModel",
+
+      "ReplicatedStorage": {
+        "$className": "ReplicatedStorage",
+
+        "Packages": {
+            "$path": "Packages",
+
+            "Forward": {
+                "$path": "src"
+            }
+        }
+      },
+
+      "StarterPlayer": {
+        "$className": "StarterPlayer",
+
+        "StarterPlayerScripts": {
+            "$className": "StarterPlayerScripts",
+
+            "tests": {
+                "$path": "tests"
+            }
+        }
+      }
+    }
+  }

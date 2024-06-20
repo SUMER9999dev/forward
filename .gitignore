@@ -1,0 +1,11 @@
+# rojo & wally
+/sourcemap.json
+/Packages
+
+# Project place file
+/Forward.rbxlx
+/Forward.rbxm
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock

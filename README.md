@@ -1,8 +1,13 @@
 # 🏃🏻 Forward
 TD movement library, specially created for MelonBytes Studio
 
-# install 
+# Install 
 ``sumer9999dev/forward@1.0.0``
+
+# Credits
+SUMER (@sumer_real) - developing this library
+
+ecurtiss (@ecurtiss) - for creating [CatRom](https://github.com/ecurtiss/CatRom) library
 
 # Documentation
 Create path:

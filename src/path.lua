@@ -1,37 +1,10 @@
 local LuauClass = require(script.Parent.LuauClass)
 local CatRom = require(script.Parent.CatRom)
 
+local get_vector3_points = require(script.Parent.get_vector3_points)
+
 local Walker = require(script.Parent.walker)
 local types = require(script.Parent.types)
-
-
-function get_vector3_points(...: ({types.Pointable} | types.Pointable)): {Vector3}
-    local points = {}
-
-    for _, point in {...} do
-        if typeof(point) == 'Vector3' then
-            table.insert(points, point)
-            continue
-        end
-
-        if typeof(point) == 'Instance' and point:IsA('BasePart') then
-            table.insert(points, point.Position)
-            continue
-        end
-
-        if typeof(point) == 'table' then
-            for _, point_2 in get_vector3_points(table.unpack(point)) do
-                table.insert(points, point_2)
-            end
-
-            continue
-        end
-
-        error(`Point expected to be Pointable, not {typeof(point)}`)
-    end
-
-    return points
-end
 
 
 local Path = LuauClass {_type = 'Path'} :: types.Path
